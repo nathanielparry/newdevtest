@@ -6,7 +6,7 @@ body {
 
 #sectionOne {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-between;
 }
 
@@ -73,11 +73,6 @@ code {
 
 @media all and (min-width: 600px) {
   aside { flex: 1 auto; }
-	
-  #sectionOne {
-    flex-direction: row;
-  }
-
 }
 
 @media all and (min-width: 800px) {
