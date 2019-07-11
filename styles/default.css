@@ -8,6 +8,22 @@ section {
 	margin-bottom: 3em;
 }
 
+#sectionOne {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#sectionOne div {
+  flex-basis: 80%;
+}
+
+#sample-layout {
+  height: 65%;
+  object-fit: cover;
+  margin: 0 auto;
+}
+
 .center {
 	text-align: center;
 }
