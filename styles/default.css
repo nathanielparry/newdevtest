@@ -1,11 +1,7 @@
 body {
-	padding: 1em;
-	font-size: 18px;
-	line-height: 1.4;
-}
-
-section {
-	margin-bottom: 3em;
+  padding: 1em;
+  font-size: 18px;
+  line-height: 1.4;
 }
 
 #sectionOne {
@@ -25,18 +21,18 @@ section {
 }
 
 .center {
-	text-align: center;
+  text-align: center;
 }
 
 #test > * {
-	padding: 10px;
-	flex: 1 100%;
+  padding: 10px;
+  flex: 1 100%;
 }
 
 #resultWindow {
-	background-color: #fff;
-	margin-bottom: 10px;
-	padding: 10px;
+  background-color: #fff;
+  margin-bottom: 10px;
+  padding: 10px;
 }
 
 #codeblock {
@@ -63,43 +59,46 @@ code {
 }
 
 #buttonWrapper {
-	display: flex;
-	margin: 0 auto;
-	justify-content: space-between;
-	width: 50%;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  width: 50%;
 }
 
 .colorButton {
-	padding: .5em 1em;
-	display: block;
-	cursor: pointer;
+  padding: .5em 1em;
+  display: block;
+  cursor: pointer;
 }
 
 @media all and (min-width: 600px) {
-	aside { flex: 1 auto; }
+  aside { flex: 1 auto; }
 }
 
 @media all and (min-width: 800px) {
-	main { flex: 2 0px; }
-	.left-side { order: 1; }
-	main { order: 2; }
-	.right-side { order: 3; }
-	footer { order: 4; }
+  main { 
+    flex: 2 0px;
+    order: 2;
+  }
+	
+  .left-side { order: 1; }
+  .right-side { order: 3; }
+  footer { order: 4; }
 }
 
 #myWrapper{
-	border: 2px solid  #fff;
-	display: flex;
-	justify-content: center;
-	margin: 0 auto;
-	min-width: 60%;
-	text-align: center;
-	padding: .5em .75em;
-	background: #fff;
-	font-size: 1.25em;
+  border: 2px solid  #fff;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  min-width: 60%;
+  text-align: center;
+  padding: .5em .75em;
+  background: #fff;
+  font-size: 1.25em;
 }
 
 .example{
-	background-color: #fff;
-	padding: 10px;
+  background-color: #fff;
+  padding: 10px;
 }
