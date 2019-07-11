@@ -23,8 +23,27 @@ section {
 	padding: 10px;
 }
 
-pre, code {
-	margin: 0;
+#codeblock {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+pre:nth-child(1) {
+  width: 60%;
+}
+
+pre:nth-child(2) {
+  width: 35%;
+}
+
+pre {
+  margin: 0 .5em;
+  white-space: pre-wrap;
+}
+
+code {
+  white-space: pre-wrap;
 }
 
 #buttonWrapper {
