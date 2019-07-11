@@ -73,6 +73,11 @@ code {
 
 @media all and (min-width: 600px) {
   aside { flex: 1 auto; }
+	
+  #sectionOne {
+    flex-direction: column;
+  }
+
 }
 
 @media all and (min-width: 800px) {
